@@ -7,14 +7,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-	
+
 <!-- Bootstrap style --> 
     <link id="callCss" rel="stylesheet" href="themes/bootshop/bootstrap.min.css" media="screen"/>
     <link href="themes/css/base.css" rel="stylesheet" media="screen"/>
-<!-- Bootstrap style responsive -->	
+<!-- Bootstrap style responsive -->
 	<link href="themes/css/bootstrap-responsive.min.css" rel="stylesheet"/>
 	<link href="themes/css/font-awesome.css" rel="stylesheet" type="text/css">
-<!-- Google-code-prettify -->	
+<!-- Google-code-prettify -->
 	<link href="themes/js/google-code-prettify/prettify.css" rel="stylesheet"/>
 <!-- fav and touch icons -->
     <link rel="shortcut icon" href="themes/images/ico/favicon.ico">
@@ -32,7 +32,7 @@
 	<div class="span6">
 	<div class="pull-right">
 		<span class="btn btn-mini">$155.00</span>
-		<a href="product_summary.html"><span class="btn btn-mini btn-primary"><i class="icon-shopping-cart icon-white"></i> [ 3 ] Itemes in your cart </span> </a> 
+		<a href="product_summary.php"><span class="btn btn-mini btn-primary"><i class="icon-shopping-cart icon-white"></i> [ 3 ] Itemes in your cart </span> </a>
 	</div>
 	</div>
 </div>
@@ -44,8 +44,8 @@
 	<span class="icon-bar"></span>
 </a>
   <div class="navbar-inner">
-    <a class="brand" href="index.html"><img src="themes/images/logo.png" alt="Bootsshop"/></a>
-		<form class="form-inline navbar-search" method="post" action="products.html" >
+    <a class="brand" href="index.php"><img src="themes/images/logo.png" alt="Bootsshop"/></a>
+		<form class="form-inline navbar-search" method="post" action="products.php" >
 		<input id="srchFld" class="srchTxt" type="text" />
 		  <select class="srchTxt">
 			<option>All</option>
@@ -54,23 +54,23 @@
 			<option>HEALTH & BEAUTY </option>
 			<option>SPORTS & LEISURE </option>
 			<option>BOOKS & ENTERTAINMENTS </option>
-		</select> 
+		</select>
 		  <button type="submit" id="submitButton" class="btn btn-primary">Go</button>
     </form>
     <ul id="topMenu" class="nav pull-right">
-	 <li class=""><a href="special_offer.html">Specials Offer</a></li>
-	 <li class=""><a href="normal.html">Delivery</a></li>
-	 <li class=""><a href="contact.html">Contact</a></li>
+	 <li class=""><a href="special_offer.php">Specials Offer</a></li>
+	 <li class=""><a href="normal.php">Delivery</a></li>
+	 <li class=""><a href="contact.php">Contact</a></li>
 	 <li class="">
 	 <a href="#login" role="button" data-toggle="modal" style="padding-right:0"><span class="btn btn-large btn-success">Login</span></a>
 	<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false" >
 		  <div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">ï¿½</button>
 			<h3>Login Block</h3>
 		  </div>
 		  <div class="modal-body">
 			<form class="form-horizontal loginFrm">
-			  <div class="control-group">								
+			  <div class="control-group">
 				<input type="text" id="inputEmail" placeholder="Email">
 			  </div>
 			  <div class="control-group">
@@ -81,7 +81,7 @@
 				<input type="checkbox"> Remember me
 				</label>
 			  </div>
-			</form>		
+			</form>
 			<button type="submit" class="btn btn-success">Sign in</button>
 			<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
 		  </div>
@@ -97,7 +97,7 @@
 <div class="container">
 <hr class="soften">
 <h1>Components used in bootshop are:</h1>
-<hr class="soften"/>	
+<hr class="soften"/>
 <header>
 	<div class="container">
 	<div class="page-header">
@@ -156,12 +156,12 @@
     </div><!-- /navbar-inner -->
   </div><!-- /navbar -->
 </section>
-    </div>	 
+    </div>
 	</header>
 
-	
-	
-	
+
+
+
 <!-- Heading
 ================================================== -->
 <div class="page-header">
@@ -205,7 +205,7 @@
   <li><a data-toggle="tab" href="#three">3 Comumn page</a></li>
   <li><a href="#four" data-toggle="tab">4 Comumn page</a></li>
 </ul>
- 
+
 <div class="tab-content">
   <div class="tab-pane" id="one">
   <div class="row-fluid">
@@ -281,7 +281,7 @@
 		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 		</p>
 	  </div>
-  
+
   </div>
 </div>
 </div>
@@ -302,7 +302,7 @@
           <button class="btn">Right</button>
         </div>
       <h4>Toolbar example</h4>
-     
+
       <div class="btn-toolbar">
         <div class="btn-group">
           <button class="btn">1</button>
@@ -338,7 +338,7 @@
             <li><a href="#">Separated link</a></li>
           </ul>
         </div><!-- /btn-group -->
-		
+
         <div class="btn-group">
           <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
           <ul class="dropdown-menu">
@@ -466,7 +466,7 @@
             <li><a href="#">Separated link</a></li>
           </ul>
         </div>
-		
+
         <div class="btn-group">
           <button class="btn btn-warning">Warning</button>
           <button class="btn btn-warning dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
@@ -1082,7 +1082,7 @@
             <div class="controls">
               <textarea class="input-xxlarge" id="textarea1" rows="3"></textarea>
             </div>
-          </div>		  
+          </div>
           <div class="form-actions">
             <button type="submit" class="btn btn-primary">Save changes</button>
             <button class="btn">Cancel</button>
@@ -1097,14 +1097,14 @@
             <label class="control-label" for="input01">Text input</label>
             <div class="controls">
               <input type="text" class="input-xlarge" id="input01">
-             
+
             </div>
           </div>
 		   <div class="control-group">
             <label class="control-label" for="input11">Text input</label>
             <div class="controls">
               <input type="text" class="input-xlarge" id="input11">
-             
+
             </div>
           </div>
 		   <div class="control-group">
@@ -1145,7 +1145,7 @@
               </select>
             </div>
           </div>
-         
+
 		  <div class="control-group">
             <label class="control-label" for="appendedInputButton">Append with button</label>
             <div class="controls">
@@ -1154,13 +1154,13 @@
               </div>
             </div>
           </div>
-		  
+
 		  <div class="control-group">
             <label class="control-label">Radio buttons</label>
             <div class="controls">
               <label class="radio">
                 <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-                Option one is this and that—be sure to include why it's great
+                Option one is this and thatï¿½be sure to include why it's great
               </label>
             </div>
           </div>
@@ -1170,7 +1170,7 @@
           </div>
         </fieldset>
       </form>
-		
+
 	</div>
 </div>
 </section>
@@ -1318,7 +1318,7 @@
             <td>@mdo</td>
           </tr>
           <tr>
-		  
+
             <td>2</td>
             <td>Jacob</td>
             <td>Thornton</td>
@@ -1380,34 +1380,34 @@
 		<div class="row">
 			<div class="span3">
 				<h5>ACCOUNT</h5>
-				<a href="login.html">YOUR ACCOUNT</a>
-				<a href="login.html">PERSONAL INFORMATION</a> 
-				<a href="login.html">ADDRESSES</a> 
-				<a href="login.html">DISCOUNT</a>  
-				<a href="login.html">ORDER HISTORY</a>
+				<a href="login.php">YOUR ACCOUNT</a>
+				<a href="login.php">PERSONAL INFORMATION</a>
+				<a href="login.php">ADDRESSES</a>
+				<a href="login.php">DISCOUNT</a>
+				<a href="login.php">ORDER HISTORY</a>
 			 </div>
 			<div class="span3">
 				<h5>INFORMATION</h5>
-				<a href="contact.html">CONTACT</a>  
-				<a href="register.html">REGISTRATION</a>  
-				<a href="legal_notice.html">LEGAL NOTICE</a>  
-				<a href="tac.html">TERMS AND CONDITIONS</a> 
-				<a href="faq.html">FAQ</a>
+				<a href="contact.php">CONTACT</a>
+				<a href="register.php">REGISTRATION</a>
+				<a href="legal_notice.php">LEGAL NOTICE</a>
+				<a href="tac.php">TERMS AND CONDITIONS</a>
+				<a href="faq.php">FAQ</a>
 			 </div>
 			<div class="span3">
 				<h5>OUR OFFERS</h5>
-				<a href="#">NEW PRODUCTS</a> 
-				<a href="#">TOP SELLERS</a>  
-				<a href="special_offer.html">SPECIAL OFFERS</a>  
-				<a href="#">MANUFACTURERS</a> 
-				<a href="#">SUPPLIERS</a> 
+				<a href="#">NEW PRODUCTS</a>
+				<a href="#">TOP SELLERS</a>
+				<a href="special_offer.php">SPECIAL OFFERS</a>
+				<a href="#">MANUFACTURERS</a>
+				<a href="#">SUPPLIERS</a>
 			 </div>
 			<div id="socialMedia" class="span3 pull-right">
 				<h5>SOCIAL MEDIA </h5>
 				<a href="#"><img width="60" height="60" src="themes/images/facebook.png" title="facebook" alt="facebook"/></a>
 				<a href="#"><img width="60" height="60" src="themes/images/twitter.png" title="twitter" alt="twitter"/></a>
 				<a href="#"><img width="60" height="60" src="themes/images/youtube.png" title="youtube" alt="youtube"/></a>
-			 </div> 
+			 </div>
 		 </div>
 		<p class="pull-right">&copy; Bootshop</p>
 	</div><!-- Container End -->
@@ -1416,10 +1416,10 @@
 	<script src="themes/js/jquery.js" type="text/javascript"></script>
 	<script src="themes/js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="themes/js/google-code-prettify/prettify.js"></script>
-	
+
 	<script src="themes/js/bootshop.js"></script>
     <script src="themes/js/jquery.lightbox-0.5.js"></script>
-	
+
 	<!-- Themes switcher section ============================================================================================= -->
 <div id="secectionBox">
 <link rel="stylesheet" href="themes/switch/themeswitch.css" type="text/css" media="screen" />
@@ -1439,7 +1439,7 @@
 		<a href="themes/css/#" name="cyborg"><img src="themes/switch/images/clr/cyborg.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="cerulean"><img src="themes/switch/images/clr/cerulean.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="journal"><img src="themes/switch/images/clr/journal.png" alt="bootstrap business templates"></a>
-		<a href="themes/css/#" name="readable"><img src="themes/switch/images/clr/readable.png" alt="bootstrap business templates"></a>	
+		<a href="themes/css/#" name="readable"><img src="themes/switch/images/clr/readable.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="simplex"><img src="themes/switch/images/clr/simplex.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="slate"><img src="themes/switch/images/clr/slate.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="spacelab"><img src="themes/switch/images/clr/spacelab.png" alt="bootstrap business templates"></a>
@@ -1458,19 +1458,19 @@
 		<a href="themes/css/#" name="pattern8"><img src="themes/switch/images/pattern/pattern8.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern9"><img src="themes/switch/images/pattern/pattern9.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern10"><img src="themes/switch/images/pattern/pattern10.png" alt="bootstrap business templates"></a>
-		
+
 		<a href="themes/css/#" name="pattern11"><img src="themes/switch/images/pattern/pattern11.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern12"><img src="themes/switch/images/pattern/pattern12.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern13"><img src="themes/switch/images/pattern/pattern13.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern14"><img src="themes/switch/images/pattern/pattern14.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern15"><img src="themes/switch/images/pattern/pattern15.png" alt="bootstrap business templates"></a>
-		
+
 		<a href="themes/css/#" name="pattern16"><img src="themes/switch/images/pattern/pattern16.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern17"><img src="themes/switch/images/pattern/pattern17.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern18"><img src="themes/switch/images/pattern/pattern18.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern19"><img src="themes/switch/images/pattern/pattern19.png" alt="bootstrap business templates"></a>
 		<a href="themes/css/#" name="pattern20"><img src="themes/switch/images/pattern/pattern20.png" alt="bootstrap business templates"></a>
-		 
+
 	</div>
 	</div>
 </div>
