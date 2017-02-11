@@ -17,27 +17,29 @@ class Registeration
 	{
 		if(is_array($data));
 		{
-			$this->setDate($data);
+			//$this->setDate($data);
+			
+			//search
+			$search = $this->searchEmail();
+			if($search)
+			{
+				//set data
+				$this->setDate($data);
+				//insert data
+				$this->registerUser();
+				//close connection
+				$this->close();
+			}else{
+				throw new Exception("Error this email exist", 1);
+
+			}
+			//connect database
+			$this->connectDB();
 		}else{
 			throw new Exception("Error Data Must be array", 1);
 			
 		}
-		//connect database
-		$this->connectDB();
-		//search
-		$search = $this->searchEmail();
-		if($search)
-		{
-			//set data
-			$this->setDate($data);
-			//insert data
-			$this->registerUser();
-			//close connection
-			$this->close();
-		}else{
-			throw new Exception("Error this email exist", 1);
-			
-		}
+		
 	}
 	//search Email
 	private function searchEmail()
