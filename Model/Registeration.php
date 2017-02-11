@@ -21,24 +21,27 @@ class Registeration
 			
 			//search
 			$search = $this->searchEmail();
-			if($search)
+			if(!$search)
 			{
 				//set data
 				$this->setDate($data);
+				//connect database
+				$this->connectDB();
 				//insert data
 				$this->registerUser();
-				//close connection
-				$this->close();
+				
 			}else{
 				throw new Exception("Error this email exist", 1);
 
 			}
-			//connect database
-			$this->connectDB();
+			
+			
 		}else{
 			throw new Exception("Error Data Must be array", 1);
 			
 		}
+		//close connection
+		$this->close();
 		
 	}
 	//search Email
